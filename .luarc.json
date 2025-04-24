@@ -1,5 +1,5 @@
 {
     "workspace.library": [
-        ".libs/schedulelua_definitions"
+        "./libs/schedulelua_definitions"
     ]
 }
