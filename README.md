@@ -2,6 +2,8 @@
 
 This repository contains EmmyLua annotations for ScheduleLua modding, providing intellisense, autocomplete, and type checking for the ScheduleLua API when developing mods.
 
+![Feature Preview](https://raw.githubusercontent.com/ScheduleLua/ScheduleLua-Annotations/refs/heads/master/image.png)
+
 ## Installation
 
 ### Prerequisites
@@ -38,13 +40,6 @@ With this setup, you'll get the following benefits when working on ScheduleLua m
 - Documentation on hover
 - Type checking
 - Navigation to definition
-
-Example:
-```lua
--- You should get intellisense and documentation for functions like:
-core.log("Hello world!")
-scene.get_character("character_id")
-```
 
 ## Deployment
 
@@ -89,4 +84,4 @@ If you find any issues with the annotations or want to improve them, feel free t
 
 ## License
 
-[Include your license information here] 
+[LICENSE](LICENSE)
