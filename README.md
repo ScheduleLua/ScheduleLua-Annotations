@@ -42,12 +42,10 @@ This repository contains EmmyLua annotations for ScheduleLua modding, providing 
    - `ScheduleLua: Create New Mod Template` - Creates a new mod project with the basic structure
    - `ScheduleLua: Show API Documentation` - Opens the ScheduleLua API documentation website
 
-### Verifying Installation
+## Usage
 
-1. Open your mod project in VSCode
-2. Create or open a Lua file
-3. Try referencing a ScheduleLua API function (e.g., `RegisterCommand`)
-4. You should see intellisense suggestions and documentation pop up
+1. Setup your workspace for ScheduleLua mod development
+2. You should now have full syntax support for ScheduleLua
 
 ## Deployment
 
