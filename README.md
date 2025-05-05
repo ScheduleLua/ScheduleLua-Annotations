@@ -74,26 +74,6 @@ If intellisense is not working:
 3. Restart VSCode
 4. Check VSCode's output panel for any Lua Language Server errors
 
-## Included API Documentation
-
-The annotations provide documentation for the following ScheduleLua APIs:
-
-- Core API
-- Command API
-- Economy API
-- Inventory API
-- Law API
-- Lifecycle Events
-- Mods API
-- NPC API
-- Player API
-- Registry API
-- Scene API
-- Schedule API
-- Time API
-- UI API
-- World API
-
 ## Contributing
 
 If you find any issues with the annotations or want to improve them, feel free to submit a pull request.
