@@ -58,6 +58,12 @@ require("scene_api")
 -- Mod management
 require("mods_api")
 
+-- Unity API
+require("unity_api")
+
+-- MoonSharp Types
+require("types")
+
 -- Note: This file is not meant to be loaded at runtime.
 -- It serves as a reference for the Lua Language Server to provide
 -- code completion and type checking. 

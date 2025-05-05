@@ -46,6 +46,58 @@ MOD_PATH = ""
 ---@type string
 MOD_VERSION = ""
 
+-- Mod Configuration Functions
+
+--- Gets the current mod's configuration
+---@return table # The mod configuration table
+function GetModConfig() end
+
+--- Saves the current mod's configuration
+---@return boolean # True if the configuration was saved successfully, false otherwise
+function SaveModConfig() end
+
+--- Defines a configuration value with a default
+---@param key string The configuration key
+---@param defaultValue any The default value if the key doesn't exist
+---@param description string The description of the configuration value
+---@return boolean # True if the value was defined successfully, false otherwise
+function DefineConfigValue(key, defaultValue, description) end
+
+--- Gets a configuration value
+---@param key string The configuration key
+---@return any # The configuration value or nil if not found
+function GetConfigValue(key) end
+
+--- Sets a configuration value
+---@param key string The configuration key
+---@param value any The value to set
+---@return boolean # True if the value was set successfully, false otherwise
+function SetConfigValue(key, value) end
+
+--- Checks if a configuration key exists
+---@param key string The configuration key to check
+---@return boolean # True if the key exists, false otherwise
+function HasConfigKey(key) end
+
+--- Gets all configuration keys
+---@return table # A table of all configuration keys
+function GetConfigKeys() end
+
+-- Mod Manager UI Functions
+
+--- Shows the mod manager UI
+function ShowModManager() end
+
+--- Hides the mod manager UI
+function HideModManager() end
+
+--- Toggles the visibility of the mod manager UI
+function ToggleModManager() end
+
+--- Checks if the mod manager UI is currently visible
+---@return boolean # True if the mod manager is visible, false otherwise
+function IsModManagerVisible() end
+
 -- Mod Event Handlers
 
 --- Event triggered when all mods have been loaded
